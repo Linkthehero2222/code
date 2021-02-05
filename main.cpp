@@ -178,7 +178,7 @@ private:
     void initWindow() {
         SDL_Init(SDL_INIT_EVERYTHING);
 
-        window = SDL_CreateWindow("Meat Worms", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, WIDTH, HEIGHT, SDL_WINDOW_VULKAN);
+        window = SDL_CreateWindow("HelloVulkan", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, WIDTH, HEIGHT, SDL_WINDOW_VULKAN);
     }
 
     void initVulkan() {
