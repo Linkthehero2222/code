@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.19.4)
-project(MeatWorms VERSION 0.1.0)
+cmake_minimum_required(VERSION 3.0.0)
+project(HelloVulkan VERSION 0.1.0)
 
 set(CMAKE_CXX_STANDARD 20)
 
@@ -16,6 +16,6 @@ file(GLOB SOURCES CONFIGURE_DEPENDS
     *.hpp
 )
 
-add_executable(MeatWorms ${SOURCES})
+add_executable(HelloVulkan ${SOURCES})
 
-target_link_libraries(MeatWorms mingw32 SDL2main SDL2-static glm Vulkan::Vulkan)
+target_link_libraries(HelloVulkan mingw32 SDL2main SDL2-static glm Vulkan::Vulkan)
